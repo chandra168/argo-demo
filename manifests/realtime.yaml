@@ -93,10 +93,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - real.baeke.info
+    - blog.kidbank.net
     secretName: real-baeke-info-tls
   rules:
-  - host: real.baeke.info
+  - host: blog.kidbank.net
     http:
       paths:
       - path: /
